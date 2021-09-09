@@ -1,4 +1,4 @@
-import math
+from modules.functions import *
 
 def main(a,b):
     print('mul')
@@ -6,10 +6,4 @@ def main(a,b):
     print('add')
     print(add(a,b))
 
-def multiply(a,b):
-    return a*b
-
-def add(a,b):
-    return a+b
-
-main(2,4)
+main(2,9)
