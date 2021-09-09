@@ -1,9 +1,15 @@
 import math
 
 def main(a,b):
-    return multiply(a,b)
+    print('mul')
+    print(multiply(a,b))
+    print('add')
+    print(add(a,b))
 
 def multiply(a,b):
     return a*b
 
-print(main(2,4))
+def add(a,b):
+    return a+b
+
+main(2,4)
